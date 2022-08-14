@@ -1,0 +1,20 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Baloo+Bhaijaan+2:wght@400;500;600&family=Montserrat:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@500&family=Poppins:wght@500;700&family=Rubik:wght@400;500;600;700;800&family=Work+Sans:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn {
+        @apply bg-yellowShade-400 px-12 py-3 text-sm font-semibold text-white font-rubi;
+    }
+
+    .headerFont {
+        @apply font-bold text-4xl font-rubi;
+    }
+
+    .textStyle {
+        @apply font-openSans text-sm font-normal;
+    }
+}

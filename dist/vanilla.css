@@ -1,0 +1,47 @@
+/* header navbar */
+.fa-cart-shopping {
+    font-size: 24px;
+}
+
+/* top banner */
+.top-banner {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/Rectangle\ 11.png);
+
+    background-size: cover;
+    width: 1048px;
+    height: 491px;
+}
+
+.vartical-line {
+    border: 5px solid #FFB400;
+    transform: rotate(-90deg);
+    width: 104px;
+    margin-right: 20px;
+}
+
+.fa-building {
+    font-size: 50px;
+    color: white;
+}
+
+.horizontal-line {
+    border: 5px solid #FFB400;
+    width: 48px;
+    margin-top: 34px;
+    margin-bottom: 36px;
+
+
+
+}
+
+@media only screen and (max-width: 640px) {
+    .top-banner {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 641px) and (max-width:1280px) {
+    .top-banner {
+        width: 1048px;
+    }
+}
