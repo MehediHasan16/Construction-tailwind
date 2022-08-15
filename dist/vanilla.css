@@ -34,6 +34,16 @@
 
 }
 
+.horizontal-line-black {
+    border: 5px solid black;
+    width: 48px;
+    margin-top: 34px;
+    margin-bottom: 36px;
+
+
+
+}
+
 @media only screen and (max-width: 640px) {
     .top-banner {
         width: 100%;
