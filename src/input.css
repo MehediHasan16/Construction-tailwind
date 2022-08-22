@@ -17,4 +17,12 @@
     .textStyle {
         @apply font-openSans text-sm font-normal;
     }
+
+    .textStyle2 {
+        @apply font-openSans text-base font-semibold text-white;
+    }
+
+    .textGray {
+        @apply font-openSans font-normal text-sm text-gray-500;
+    }
 }

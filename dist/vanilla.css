@@ -12,6 +12,7 @@
     height: 491px;
 }
 
+
 .vartical-line {
     border: 5px solid #FFB400;
     transform: rotate(-90deg);
@@ -41,6 +42,14 @@
     margin-bottom: 36px;
 
 
+
+}
+
+/* page part 2 */
+.top-banner-2 {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images-2/Rectangle\ 11.png);
+
+    background-size: cover;
 
 }
 

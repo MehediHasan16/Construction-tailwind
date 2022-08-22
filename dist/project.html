@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+
+    <link rel="stylesheet" href="vanilla.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<header>
+    <!-- navigation -->
+    <nav class="bg-white border-gray-200  px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="https://flowbite.com/" class="flex items-center">
+
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Construction Company
+                    Landing</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="flex flex-col p-4 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="./index.html"
+                            class="blockpy-2 pr-4 pl-3 lg:pr-7  text-sm   text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-1  md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                    </li>
+                    <li>
+                        <a href="../dist/project.html"
+                            class="blockpy-2 pr-4 pl-3 lg:pr-7  text-sm   text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-1  md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Project</a>
+                    </li>
+
+                    <li>
+                        <a href="./blog.html"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Service</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cart-shopping ml-4 "></i>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- top banner -->
+
+    <section class="w-full top-banner-2 h-[569px] ">
+        <div class="   lg:flex">
+            <div class=" pl-14  pt-40  lg:pl-48  space-y-7 lg:space-y-14  ">
+
+
+                <h1 class=" text-3xl lg:text-6xl text-white font-bold font-rubi"><span class="vartical-line"></span>
+                    Monarch HQ Project
+                </h1>
+                <p class="font-openSans text-white text-[10px] lg:text-lg">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Ut quis <br> egestas pellentesque libero dolor in diam consequat ut. </p>
+
+
+            </div>
+            <div class=" pl-14  pt-40  lg:pl-44 lg:pt-32 space-y-7   ">
+                <p class="textStyle2">Date: 12 April 2018 </p>
+                <p class="textStyle2"> Client: Monarch Group</p>
+                <p class="textStyle2"> Project Type: Building Renovation</p>
+            </div>
+
+        </div>
+    </section>
+
+</header>
+
+<body>
+    <main class="flex flex-col justify-center items-center">
+        <div class="space-y-24">
+            <!-- About this Project -->
+            <section class="lg:flex lg:space-x-28 mt-24">
+                <article class="px-10 lg:px-0 mb-10 lg:mb-0">
+                    <h1 class="headerFont">About this Project</h1>
+                    <hr class="horizontal-line">
+
+                    <div>
+                        <p class="textGray">Lectus erat, consectetur eu sapien eget
+                            rhoncus
+                            consectetur sem. <br> Proin cursus, dolor a
+                            mollis
+                            consectetur, risus dolor fermentum <br> massa, a commodo elit dui sit amet risus.</p>
+                        <div class="space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                            <ul class="list-disc">
+                                <li> Maecenas ornare nisl</li>
+                            </ul>
+                            <ul class="list-disc">
+                                <li> A tortor ultrices bibendum</li>
+                            </ul>
+                            <ul class="list-disc">
+                                <li>ulla fermentum</li>
+                            </ul>
+                            <ul class="list-disc">
+                                <li> Metus quis Sodales tristique</li>
+                            </ul>
+                            <ul class="list-disc">
+                                <li> Metus quis Sodales tristique</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <div>
+                    <img src="../images-2/Rectangle 41.png" alt="">
+                </div>
+            </section>
+            <section>
+                <img src="../images-2/Rectangle 42.png" alt="">
+                <div class="lg:flex justify-center lg:space-x-28 mt-16">
+                    <img src="../images-2/Rectangle 43.png" alt="">
+                    <div class="space-y-10 lg:w-[524px] p-10 lg:p-0 ">
+                        <p class="textGray">
+                            Lorem ipsum dolor sit consectetur adipiscing elit. Nullam lectus erat, consectetur eu sapien
+                            eget rhoncus consectetur sem.
+                            Proin cursus, dolor a mollis consectetur, risus dolor fermentum massa, a commodo elit dui
+                            sit amet risus. Maecenas ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis
+                            sodales tristique, augue mauris molestie augue non feugiat ligula neque nec felis.
+
+
+                        </p>
+                        <p class="textGray">
+                            Lectus erat, consectetur eu sapien eget rhoncus consectetur sem. Proin cursus, dolor a
+                            mollis consectetur, risus dolor fermentum massa, a commodo elit dui sit amet risus. Maecenas
+                            ornare nisl a tortor ultrices bibendum. Nulla fermentum, metus quis sodales tristique, augue
+                            mauris molestie augue, non feugiat ligula neque nec felis.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!-- Related Projects -->
+            <!-- <section>
+                <div class="">
+                    <h1 class="headerFont text-center mt-24 mb-4">Related Projects</h1>
+                    <div class="flex justify-center">
+                        <hr class="horizontal-line  ">
+                    </div>
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-x-12 gap-y-4  ">
+                        <div class="w-72 h-full  ">
+                            <img src="../images/Rectangle 12.png" alt="">
+                            <div class="border-2 mt-5  pl-6 pt-10">
+                                <h5 class="font-openSans font-bold text-sm">Service Title</h5>
+                                <p class="mt-5 textStyle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et
+                                    euismod
+                                    bibendum
+                                    adipiscing et
+                                    orci, fermentum. Cras tristique viverra gravida et sit egestas.</p>
+                                <button
+                                    class="py-[5px] px-6 border-2 border-gray-500 font-semibold text-xs text-gray-500 bg-transparent font-rubi mt-20 mb-2  ">LEARN
+                                    MORE</button>
+                            </div>
+                        </div>
+                        <div class="w-72">
+                            <img src="../images/Rectangle 34.png" alt="">
+                            <div class="border-2 mt-5  pl-6 pt-10">
+                                <h5 class="font-openSans font-bold text-sm">Service Title</h5>
+                                <p class="mt-5 textStyle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et
+                                    euismod
+                                    bibendum
+                                    adipiscing et
+                                    orci, fermentum. Cras tristique viverra gravida et sit egestas.</p>
+                                <button
+                                    class="py-[5px] px-6 border-2 border-gray-500 font-semibold text-xs text-gray-500 bg-transparent font-rubi mt-20 mb-2  ">LEARN
+                                    MORE</button>
+                            </div>
+                        </div>
+                        <div class="w-72">
+                            <img src="../images/Rectangle 36.png" alt="">
+                            <div class="border-2 mt-5  pl-6 pt-10">
+                                <h5 class="font-openSans font-bold text-sm">Service Title</h5>
+                                <p class="mt-5 textStyle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id et
+                                    euismod
+                                    bibendum
+                                    adipiscing et
+                                    orci, fermentum. Cras tristique viverra gravida et sit egestas.</p>
+                                <button
+                                    class="py-[5px] px-6 border-2 border-gray-500 font-semibold text-xs text-gray-500 bg-transparent font-rubi mt-20 mb-2  ">LEARN
+                                    MORE</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="flex justify-center mt-7 mb-16"> <button
+                            class="py-2 px-12 border-4 border-gray-900 font-semibold text-base text-gray-900 bg-transparent font-rubi mt-5 ">VIEW
+                            ALL</button></div>
+                </div>
+            </section> -->
+
+
+
+
+        </div>
+        <!-- Contact Us -->
+        <section class="grid grid-cols-1 lg:grid-cols-2">
+            <div class="bg-yellowShade-400 pl-16 pt-16 pb-12">
+                <div>
+                    <h5 class="headerFont">Contact Us</h5>
+                    <hr class="horizontal-line-black ">
+                    <div class=" lg:space-x-7 space-y-7  mb-4">
+                        <input class="border-0 outline-0 h-12 w-64 pl-4 py-3" type="text" placeholder="Name"> <input
+                            class="border-0 outline-0 h-12 w-64 pl-4 py-3" placeholder="Email" type="text">
+                    </div>
+
+                    <textarea class="pl-4 py-3 border-0 outline-0 w-[256px] md:w-[543px]" name="Message" id="" rows="4"
+                        placeholder="message"></textarea>
+
+                    <button
+                        class="bg-transparent border-4 border-white px-11 py-2 lg:ml-[346px]  mt-4 text-sm font-semibold text-white font-rubi">SEND
+                        MESSAGE</button>
+                </div>
+
+            </div>
+            <div>
+                <div class="bg-zinc-900 h-28 flex items-center justify-center space-x-16 ">
+                    <i class="fa-brands fa-facebook-f text-white text-xl"></i><i
+                        class="fa-brands fa-twitter text-white text-xl"></i><i
+                        class="fa-brands fa-linkedin text-white text-xl  bg-zinc-900"></i>
+                </div>
+                <div class="p-20 lg:pl-28 lg:pt-12 space-y-6">
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-location-dot text-gray-500"></i>
+                        <p class="font-rubi text-sm font-medium text-gray-700">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing elit.</p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-phone text-gray-500"></i>
+                        <p class="font-rubi text-sm font-medium text-gray-700">+00 123 456 78</p>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fa-solid fa-envelope text-gray-500"></i>
+                        <p class="font-rubi text-sm font-medium text-gray-700">constractioninc@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
