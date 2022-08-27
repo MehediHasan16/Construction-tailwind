@@ -20,6 +20,15 @@
     margin-right: 20px;
 }
 
+.vartical-line-2 {
+
+    border: 5px solid #FFB400;
+    background-color: #FFB400;
+
+    height: 140px;
+
+}
+
 .fa-building {
     font-size: 50px;
     color: white;
@@ -50,6 +59,16 @@
     background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images-2/Rectangle\ 11.png);
 
     background-size: cover;
+
+}
+
+/* page part 3 blog */
+.top-banner-3 {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images-3/top-banner-3.png);
+
+    background-size: cover;
+    height: 339px;
+    width: 100%;
 
 }
 
