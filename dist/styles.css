@@ -660,19 +660,14 @@ video {
   margin-bottom: auto;
 }
 
-.my-12{
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.my-40{
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
 .my-24{
   margin-top: 6rem;
   margin-bottom: 6rem;
+}
+
+.my-28{
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
 .ml-3{
@@ -763,8 +758,8 @@ video {
   margin-bottom: 4rem;
 }
 
-.ml-\[-52px\]{
-  margin-left: -52px;
+.mt-28{
+  margin-top: 7rem;
 }
 
 .block{
@@ -855,6 +850,18 @@ video {
   width: 256px;
 }
 
+.w-52{
+  width: 13rem;
+}
+
+.w-3{
+  width: 0.75rem;
+}
+
+.w-\[536px\]{
+  width: 536px;
+}
+
 .list-disc{
   list-style-type: disc;
 }
@@ -865,6 +872,10 @@ video {
 
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -916,6 +927,11 @@ video {
 
 .gap-y-12{
   row-gap: 3rem;
+}
+
+.gap-x-20{
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]){
@@ -994,6 +1010,30 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.75rem * var(--tw-space-x-reverse));
   margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-20 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(5rem * var(--tw-space-x-reverse));
+  margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-y-40 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(10rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(10rem * var(--tw-space-y-reverse));
+}
+
+.space-y-28 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(7rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(7rem * var(--tw-space-y-reverse));
+}
+
+.space-y-20 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(5rem * var(--tw-space-y-reverse));
 }
 
 .self-center{
@@ -1134,6 +1174,14 @@ video {
   padding: 2.5rem;
 }
 
+.p-80{
+  padding: 20rem;
+}
+
+.p-11{
+  padding: 2.75rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -1202,6 +1250,16 @@ video {
 .py-16{
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-28{
+  padding-top: 7rem;
+  padding-bottom: 7rem;
 }
 
 .pr-4{
@@ -1300,8 +1358,8 @@ video {
   padding-bottom: 6rem;
 }
 
-.pl-44{
-  padding-left: 11rem;
+.pt-28{
+  padding-top: 7rem;
 }
 
 .text-center{
@@ -1365,6 +1423,11 @@ video {
   line-height: 1;
 }
 
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .font-semibold{
   font-weight: 600;
 }
@@ -1383,14 +1446,6 @@ video {
 
 .leading-7{
   line-height: 1.75rem;
-}
-
-.leading-10{
-  line-height: 2.5rem;
-}
-
-.leading-loose{
-  line-height: 2;
 }
 
 .leading-relaxed{
@@ -1606,6 +1661,10 @@ video {
     display: flex;
   }
 
+  .lg\:h-\[569px\]{
+    height: 569px;
+  }
+
   .lg\:w-96{
     width: 24rem;
   }
@@ -1622,12 +1681,20 @@ video {
     width: 524px;
   }
 
+  .lg\:w-\[536px\]{
+    width: 536px;
+  }
+
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row{
+    flex-direction: row;
   }
 
   .lg\:justify-start{
@@ -1662,6 +1729,18 @@ video {
     margin-left: calc(7rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
+  .lg\:space-x-20 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-x-reverse: 0;
+    margin-right: calc(5rem * var(--tw-space-x-reverse));
+    margin-left: calc(5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]){
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
   .lg\:p-0{
     padding: 0px;
   }
@@ -1674,6 +1753,11 @@ video {
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:py-0{
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .lg\:pr-7{
@@ -1712,6 +1796,10 @@ video {
     padding-left: 12rem;
   }
 
+  .lg\:pl-20{
+    padding-left: 5rem;
+  }
+
   .lg\:pt-32{
     padding-top: 8rem;
   }
@@ -1726,8 +1814,8 @@ video {
     line-height: 1.75rem;
   }
 
-  .lg\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
+  .lg\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
