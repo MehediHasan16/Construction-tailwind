@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/styles.css">
+
+    <link rel="stylesheet" href="vanilla.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<header>
+    <nav class="bg-white border-gray-200  px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="https://flowbite.com/" class="flex items-center">
+
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Construction Company
+                    Landing</span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                <ul
+                    class="flex flex-col p-4 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                    <li>
+                        <a href="./index.html"
+                            class="blockpy-2 pr-4 pl-3 lg:pr-7  text-sm   text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-1  md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                    </li>
+                    <li>
+                        <a href="../dist/project.html"
+                            class="blockpy-2 pr-4 pl-3 lg:pr-7  text-sm   text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-1  md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Project</a>
+                    </li>
+
+                    <li>
+                        <a href="../dist/blog.html"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Blog</a>
+                    </li>
+                    <li>
+                        <a href="../dist/protfoli.html"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="../dist/service.html"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Service</a>
+                    </li>
+                    <li>
+                        <a href="./service.html"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-sm text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-cart-shopping ml-4 "></i>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="w-full top-banner-5 h-full lg:h-[569px] ">
+        <div class="  flex flex-col lg:flex-row  items-center">
+            <div class=" pl-14  pt-40  lg:pl-48  space-y-7 lg:space-y-14  ">
+
+
+                <div class="flex  items-center space-x-7  ">
+                    <span class="vartical-line-2"></span>
+                    <h1 class=" text-3xl lg:text-6xl  text-white font-bold font-rubi">
+                        Our Construction <br> Projects </h1>
+                </div>
+                <p class="font-openSans text-white text-[10px] lg:text-xl">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Ut quis <br> egestas pellentesque libero dolor in diam consequat ut. </p>
+
+                <button class="btn  ">GET A QUOTE</button>
+            </div>
+            <div class=" pl-14 lg:pl-20 py-10 lg:py-0   lg:pt-32 space-y-7   ">
+
+
+                <div class="space-y-5">
+                    <div class="flex items-center space-x-4">
+
+                        <i class="fa-solid fa-city text-5xl text-yellowShade-400"></i>
+
+                        <div class="space-y-1">
+                            <h5 class=" font-bold text-white">Building Construction</h5>
+                            <p class="leading-7 font-openSans text-gray-300">Lorem ipsum dolor sit <br> consectetur
+                                adipiscing
+                                elit.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <i class="fa-solid fa-screwdriver-wrench text-6xl text-yellowShade-400"></i>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-white">Building Repairs</h5>
+                            <p class="leading-7 font-openSans text-gray-300">Lorem ipsum dolor sit <br> consectetur
+                                adipiscing
+                                elit.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <i class="fa-solid fa-paint-roller text-6xl text-yellowShade-400"></i>
+                        <div class="space-y-1">
+                            <h5 class="font-bold text-white">Custom Design</h5>
+                            <p class="leading-7 font-openSans text-gray-300">Lorem ipsum dolor sit <br> consectetur
+                                adipiscing
+                                elit.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+</header>
+
+<body>
+    <main>
+        <section class="mt-96 lg:mt-0">
+            <div class="lg:flex justify-evenly  items-center py-9">
+                <h1 class="text-4xl font-bold text-center font-rubi">Get a Qoute For Your Project</h1>
+
+
+
+
+                <div class="flex justify-center mt-9 lg:mt-0">
+                    <button
+                        class="py-3 px-14 border-4 border-yellowShade-400 font-semibold text-base text-yellowShade-400  ">FREE
+                        QUOTE</button>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <section class="flex justify-end ">
+            <div class="w-[1134px] h-full lg:h-[610px] bg-[#F7F7F7]  ">
+                <div>
+                    <article class=" pl-16 lg:pl-32 pt-24">
+                        <h1 class="headerFont">About this Project</h1>
+                        <hr class="horizontal-line">
+
+                        <div>
+                            <p class="textGray">Lectus erat, consectetur eu sapien eget
+                                rhoncus
+                                consectetur sem. <br> Proin cursus, dolor a
+                                mollis
+                                consectetur, risus dolor fermentum <br> massa, a commodo elit dui sit amet risus.</p>
+                            <div class="grid   lg:grid-cols-3 space-y-6   pt-4">
+                                <div class="lg:space-y-1 ml-5  font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                                <div class="lg:space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                                <div class="lg:space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 mt-20">
+                    <div class="py-6  bg-gray-900 pl-6 pt-4 space-y-4 flex justify-center items-center ">
+                        <button
+                            class="py-6 px-16  border-4 border-y-white font-semibold text-sm text-white bg-transparent font-rubi  ">GET
+                            A QUOTE</button>
+                    </div>
+                    <div class="py-6  bg-yellowShade-400 flex justify-center items-center ">
+                        <button
+                            class="py-6 px-16  border-4 border-y-white font-semibold text-sm text-white bg-transparent font-rubi  ">LEARN
+                            MORE</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="flex justify-start mt-7   ">
+            <div class="w-[1134px] h-full lg:h-[610px] bg-[#F7F7F7]  ">
+                <div>
+                    <article class=" pl-16 lg:pl-32 pt-20">
+                        <h1 class="headerFont">Repairs & Installations</h1>
+                        <hr class="horizontal-line">
+
+                        <div>
+                            <p class="textGray">Lectus erat, consectetur eu sapien eget
+                                rhoncus
+                                consectetur sem. <br> Proin cursus, dolor a
+                                mollis
+                                consectetur, risus dolor fermentum <br> massa, a commodo elit dui sit amet risus.</p>
+                            <div class="grid   lg:grid-cols-3 space-y-6 lg:space-y-0  pt-4">
+                                <div class="space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                                <div class="space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                                <div class="space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 mt-24">
+                    <div class="py-6  bg-gray-900 pl-6 pt-4 space-y-4 flex justify-center items-center ">
+                        <button
+                            class="py-6 px-16  border-4 border-y-white font-semibold text-sm text-white bg-transparent font-rubi  ">GET
+                            A QUOTE</button>
+                    </div>
+                    <div class="py-6  bg-yellowShade-400 flex justify-center items-center ">
+                        <button
+                            class="py-6 px-16  border-4 border-y-white font-semibold text-sm text-white bg-transparent font-rubi  ">LEARN
+                            MORE</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="flex justify-end mt-1">
+            <div class="w-[1134px] h-full lg:h-[610px] bg-[#F7F7F7]  ">
+                <div>
+                    <article class=" pl-16 lg:pl-32 mt-24">
+                        <h1 class="headerFont">Custom Design Projects</h1>
+                        <hr class="horizontal-line">
+
+                        <div>
+                            <p class="textGray">Lectus erat, consectetur eu sapien eget
+                                rhoncus
+                                consectetur sem. <br> Proin cursus, dolor a
+                                mollis
+                                consectetur, risus dolor fermentum <br> massa, a commodo elit dui sit amet risus.</p>
+                            <div class="grid   lg:grid-cols-3 space-y-6   pt-4">
+                                <div class="space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                                <div class="space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                                <div class="space-y-1 ml-5 font-openSans font-normal text-sm text-gray-500">
+                                    <ul class="list-disc">
+                                        <li> Maecenas ornare nisl</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> A tortor ultrices bibendum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li>ulla fermentum</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                    <ul class="list-disc">
+                                        <li> Metus quis Sodales tristique</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 mt-20">
+                    <div class="py-6  bg-gray-900 pl-6 pt-4 space-y-4 flex justify-center items-center ">
+                        <button
+                            class="py-6 px-16  border-4 border-y-white font-semibold text-sm text-white bg-transparent font-rubi  ">GET
+                            A QUOTE</button>
+                    </div>
+                    <div class="py-6  bg-yellowShade-400 flex justify-center items-center ">
+                        <button
+                            class="py-6 px-16  border-4 border-y-white font-semibold text-sm text-white bg-transparent font-rubi  ">LEARN
+                            MORE</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

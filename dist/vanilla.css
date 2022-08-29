@@ -72,6 +72,22 @@
 
 }
 
+.top-banner-4 {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/service-img/Rectangle\ 11\ \(3\).png);
+
+    background-size: cover;
+
+    width: 100%;
+}
+
+.top-banner-5 {
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/services-img/Rectangle\ 11\ \(3\).png);
+
+    background-size: cover;
+
+    width: 100%;
+}
+
 @media only screen and (max-width: 640px) {
     .top-banner {
         width: 100%;
