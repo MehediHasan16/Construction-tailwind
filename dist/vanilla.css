@@ -29,6 +29,13 @@
 
 }
 
+.vartical-line-3 {
+    border: 5px solid #FFB400;
+    background-color: #FFB400;
+
+    height: 202px;
+}
+
 .building-icons {
     font-size: 50px;
     color: white;
@@ -39,6 +46,15 @@
     width: 48px;
     margin-top: 34px;
     margin-bottom: 36px;
+
+
+
+}
+
+.horizontal-line-2 {
+    border: 5px solid #FFB400;
+    width: 48px;
+
 
 
 
